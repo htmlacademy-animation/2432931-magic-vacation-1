@@ -3234,7 +3234,7 @@ img {
 
 .screen__footer {
   position: absolute;
-  bottom: -35;
+  bottom: -40px;
   left: 0;
   right: 0;
   color: #5f458c;
@@ -3590,7 +3590,7 @@ img {
   background-color: #5f458c;
 }
 
-.is-load .screen__footer {
+.is-load .screen.active .screen__footer {
   bottom: 0;
 }
 
@@ -3983,7 +3983,6 @@ img {
   display: block;
   width: 2.3rem;
   height: 2.2rem;
-  transition: all 0.3s ease-in;
 }
 .social-block__toggler:hover, .social-block--active .social-block__toggler {
   color: #a67ee5;
